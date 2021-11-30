@@ -3,7 +3,6 @@ let boton = document.getElementById("playerButton");
 
 let boton2 = document.getElementById("playerButton2");
 
-
 function reproducirAudio() {
     radio.play();
     boton.style.display = "none";
@@ -15,4 +14,4 @@ function pausarAudio(){
     boton.style.display = "block";
     boton2.style.display = "none";
 }
-
+ 
