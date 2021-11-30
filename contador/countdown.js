@@ -19,6 +19,8 @@ simplyCountdown('#cuenta', {
     // in case of inline set to false
     enableUtc: false, //Use UTC or not - default : false
     onEnd: function() { 
+        document.getelementById("texto-contador").style.display = "none";
+        document.getelementById("img-emot").style.display = "none";
         document.getelementById("cuenta").style.display = "none";
         return; 
     }, //Callback on countdown end, put your own function here
