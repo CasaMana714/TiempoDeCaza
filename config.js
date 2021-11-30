@@ -14,4 +14,5 @@ function pausarAudio(){
     boton.style.display = "block";
     boton2.style.display = "none";
 }
+
  
