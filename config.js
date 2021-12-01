@@ -15,4 +15,4 @@ function pausarAudio(){
     boton2.style.display = "none";
 }
 
- 
+let inputRadio = document.getElementsByClassName("u-input").disabled = true;
