@@ -3,6 +3,7 @@ let boton = document.getElementById("playerButton");
 
 let boton2 = document.getElementById("playerButton2");
 
+
 function reproducirAudio() {
     radio.play();
     boton.style.display = "none";
@@ -18,5 +19,10 @@ function pausarAudio(){
 if(window.onload){
     let inputDiv = document.getElementsByClassName('u-input-text-inputs'); //input padre de los input del chat
     inputDiv[0].blur(); 
+
+    /*let cantVotos = document.getElementById('tiptip_content').innerHTML;
+    let votos = document.getElementById("votos").innerText = cantVotos;*/
+
+
 }
 
