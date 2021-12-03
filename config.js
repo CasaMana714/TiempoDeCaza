@@ -10,8 +10,8 @@ function reproducirAudio() {
     boton2.style.display = "block";
 }
 
-function pausarAudio(){
-    radio.pause();
+function recargar(){
+    location.reload();
     boton.style.display = "block";
     boton2.style.display = "none";
 }
