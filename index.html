@@ -26,7 +26,7 @@
         <div id="bgCover"></div>
         <div class="bg-mask"></div>
     </div>
-    <main>
+    <main id="main">
         <section id="player">
             <div class="container">
                 <div class="row web-player">
@@ -87,8 +87,9 @@
                 </div>
                 <div class="row historic">
                     <div class="col-12">
-                        <h2>Dejanos tu mensaje</h2>
-                        <iframe src="https://chat.chatzona.org/index.html#nick=&channel=Radio_Tiempo_De_Caza" width="100%" height="450" frameborder="0"></iframe><br>
+                        <a href="#" id="dejanosTuMensaje" class="text-center" onclick="abrirChat()"><h2>Dejanos tu mensaje (click para abrir)</h2></a>
+                        <a href="#" id="ocultarChat" class="text-center" onclick="ocultarChat()"><h2>Ocultar Chat (click para ocultar)</h2></a>
+                        <iframe id="chat" src="https://chat.chatzona.org/index.html#nick=&channel=Radio_Tiempo_De_Caza" width="100%" height="450" frameborder="0"></iframe><br>
                         <h2>Servicio por <a href="#">ChatZona</a></h2>
                     </div>
                 </div>

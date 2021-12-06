@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Share:400i,700i');
 @import url('bootstrap.min.css');
 
+a{
+    text-decoration: none !important;
+}
+
 html, body {
     height: 100%;
 }
@@ -11,6 +15,14 @@ body {
     flex-flow: row;
     justify-content: center;
     overflow-x: hidden;
+}
+
+#ocultarChat{
+    display: none;
+}
+
+#chat{
+    display: none;
 }
 
 #cuenta{
@@ -337,10 +349,6 @@ input[type=range]::-ms-thumb {
 @media(min-width: 768px) {
     body {
         align-items: center;
-    }
-
-    main{
-        margin-top: 20rem;
     }
 
     .h1-logo {
