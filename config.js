@@ -15,7 +15,7 @@ function recargar(){
     boton.style.display = "block";
     boton2.style.display = "none";
 }
-*/
+
 if( window.location.href.match('http:')){
     window.location.href = window.location.href.replace('http', 'https')
 } 
@@ -44,5 +44,6 @@ function ocultarChat() {
     // Then trigger an alert
     document.querySelector("#main").style.marginTop = "15rem";
     }
-}
+}*/
+window.location.replace("https://www.tiempodecaza.online/");
 
