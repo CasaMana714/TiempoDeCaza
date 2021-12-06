@@ -45,5 +45,5 @@ function ocultarChat() {
     document.querySelector("#main").style.marginTop = "15rem";
     }
 }*/
-window.location.replace("https://www.tiempodecaza.online/");
+window.location.replace("http://www.tiempodecaza.online/");
 
