@@ -4,6 +4,7 @@
 
 a{
     text-decoration: none !important;
+    overflow: hidden;
 }
 
 html, body {
@@ -349,6 +350,10 @@ input[type=range]::-ms-thumb {
 @media(min-width: 768px) {
     body {
         align-items: center;
+    }
+
+    main{
+        margin-top:15rem;
     }
 
     .h1-logo {

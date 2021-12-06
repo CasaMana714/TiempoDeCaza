@@ -16,6 +16,9 @@ function recargar(){
     boton2.style.display = "none";
 }
 */
+if( window.location.href.match('http:')){
+    window.location.href = window.location.href.replace('http', 'https')
+} 
 
 function abrirChat() {
     document.getElementById("chat").style.display = "block";
@@ -26,7 +29,7 @@ function abrirChat() {
     // Check if the media query is true
     if (mediaQuery.matches) {
     // Then trigger an alert
-    document.querySelector("#main").style.marginTop = "30rem";
+    document.querySelector("#main").style.marginTop = "45rem";
     }
 }
 
@@ -39,7 +42,7 @@ function ocultarChat() {
     // Check if the media query is true
     if (mediaQuery.matches) {
     // Then trigger an alert
-    document.querySelector("#main").style.marginTop = "0rem";
+    document.querySelector("#main").style.marginTop = "15rem";
     }
 }
 
